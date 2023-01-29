@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.2.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>sing in</title>
+  </head>
+  <body id="body" class="d-flex justify-content-center">
+    <div id="container" class="w-50 mt-5 d-flex flex-column">
+      <div class="form-floating mb-3 mt-5" dir="rtl">
+        <input
+          type="text"
+          class="form-control"
+          id="username"
+          placeholder="name@example.com"
+          dir="rtl"
+        />
+        <label for="username" class="me-3">نام کاربری</label>
+      </div>
+      <div class="form-floating mb-3" dir="rtl">
+        <input
+          type="password"
+          class="form-control"
+          id="pass"
+          dir="rtl"
+          placeholder="name@example.com"
+        />
+        <label for="pass" dir="rtl">رمزعبور</label>
+        <div id="validation" class="invalid-feedback bg-gradient">نام کاربری نمیتواند خالی باشید</div>
+        <div id="validation2" class="invalid-feedback bg-gradient">رمز عبور نمیتواند خالی باشید</div>
+      </div>
+      <div id="checkinput" dir="rtl" class="d-flex justify-content-center">
+        <input type="checkbox" id="remeberme" class=" form-check-input ms-2">
+        <label id="LabelCheckInput" for="remeberme" class=" form-label"> مرا بخاطر بسپار</label>
+      </div>
+      <div id="divbtnsubmit" class="d-flex justify-content-center" dir="rtl">
+        <button type="submit" class="btn btn-outline-primary mt-5" id="btnsubmit"> ورود </button>
+      </div>
+      <div id="forgotuserpass" class=" d-flex justify-content-center" dir="rtl">
+        <a href="#" id="linkforgotuserpass">رمز یا نام کابرری را فراموش کردم .</a>
+      </div>
+    </div>
+  </body>
+  <script src="./bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./index.js"></script>
+</html>

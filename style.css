@@ -1,0 +1,38 @@
+body{
+    background-image: url(./274\ \(2\).jpg);
+    background-blend-mode: luminosity;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: bolder;
+    font-size: large;
+}
+input[type=text]{
+    color: #fff;
+}
+#username,#pass{
+    background-color: rgb(255,255,255,0.2);
+    border-style: none !important;
+    border-bottom-style: solid !important;
+    height: 45px;
+}
+#LabelCheckInput{
+    color: hsl(0deg 0% 71%);
+}
+#btnsubmit{
+    background-color: rgb(76, 76, 222,0.5);
+    color: rgb(173, 166, 166);
+}
+#btnsubmit:hover{
+    color: #fff;
+}
+@media screen and (min-width:320px) {
+    body{
+        background-size: 750%;
+    }
+}
+@media screen and (min-width:720px) {
+    body{
+        background-size: 100%;
+        }
+}
